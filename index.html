@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Músico, Instructor de Pilates y Yoga - Servicios profesionales de bienestar y música">
+    <title>David | Músico & Instructor de Bienestar</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <a href="#inicio">David</a>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#inicio" class="nav-link">Inicio</a></li>
+                <li><a href="#servicios" class="nav-link">Servicios</a></li>
+                <li><a href="#sobre-mi" class="nav-link">Sobre Mí</a></li>
+                <li><a href="#testimonios" class="nav-link">Testimonios</a></li>
+                <li><a href="#contacto" class="nav-link btn-contact">Contacto</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="container">
+                <h1 class="hero-title">David</h1>
+                <p class="hero-subtitle">Músico • Instructor de Pilates • Instructor de Yoga</p>
+                <p class="hero-description">Transforma tu vida a través de la música y el movimiento holístico</p>
+                <div class="hero-buttons">
+                    <a href="#servicios" class="btn btn-primary">Descubre Mis Servicios</a>
+                    <a href="#contacto" class="btn btn-secondary">Reserva Ahora</a>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <span>Descubre más</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="servicios" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Mis Servicios</h2>
+                <p class="section-subtitle">Un enfoque integral para tu bienestar y crecimiento personal</p>
+            </div>
+
+            <div class="services-grid">
+                <!-- Music Service -->
+                <div class="service-card" data-aos="fade-up">
+                    <div class="service-icon">
+                        <i class="fas fa-music"></i>
+                    </div>
+                    <h3 class="service-title">Música</h3>
+                    <p class="service-description">
+                        Clases de guitarra, piano y teoría musical. Presentaciones en vivo para eventos especiales y producción musical personalizada.
+                    </p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Clases particulares y grupales</li>
+                        <li><i class="fas fa-check"></i> Todos los niveles</li>
+                        <li><i class="fas fa-check"></i> Presentaciones en vivo</li>
+                    </ul>
+                    <a href="#contacto" class="service-link">Consultar <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <!-- Pilates Service -->
+                <div class="service-card featured" data-aos="fade-up" data-aos-delay="100">
+                    <div class="featured-badge">Más Popular</div>
+                    <div class="service-icon">
+                        <i class="fas fa-spa"></i>
+                    </div>
+                    <h3 class="service-title">Pilates</h3>
+                    <p class="service-description">
+                        Clases de Pilates mat y aparatos. Mejora tu postura, fortalece tu core y aumenta tu flexibilidad con sesiones personalizadas.
+                    </p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Pilates Mat y Reformer</li>
+                        <li><i class="fas fa-check"></i> Clases individuales y grupales</li>
+                        <li><i class="fas fa-check"></i> Programas de rehabilitación</li>
+                    </ul>
+                    <a href="#contacto" class="service-link">Consultar <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <!-- Yoga Service -->
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-icon">
+                        <i class="fas fa-om"></i>
+                    </div>
+                    <h3 class="service-title">Yoga</h3>
+                    <p class="service-description">
+                        Clases de Hatha, Vinyasa y Yoga Restaurativo. Conecta cuerpo, mente y espíritu a través de prácticas milenarias.
+                    </p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Varios estilos de Yoga</li>
+                        <li><i class="fas fa-check"></i> Meditación guiada</li>
+                        <li><i class="fas fa-check"></i> Retiros y workshops</li>
+                    </ul>
+                    <a href="#contacto" class="service-link">Consultar <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="sobre-mi" class="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image" data-aos="fade-right">
+                    <div class="image-frame">
+                        <div class="placeholder-image">
+                            <i class="fas fa-user-circle"></i>
+                            <span>Tu Foto Aquí</span>
+                        </div>
+                    </div>
+                    <div class="experience-badge">
+                        <span class="number">10+</span>
+                        <span class="text">Años de<br>Experiencia</span>
+                    </div>
+                </div>
+                <div class="about-content" data-aos="fade-left">
+                    <h2 class="section-title">Sobre Mí</h2>
+                    <h3 class="about-subtitle">Pasión por el arte y el bienestar holístico</h3>
+                    <p class="about-text">
+                        Soy un profesional multidisciplinario dedicado a transformar vidas a través de la música y las prácticas corporales. Mi enfoque único combina la disciplina del Pilates, la espiritualidad del Yoga y la expresión creativa de la música.
+                    </p>
+                    <p class="about-text">
+                        Con más de una década de experiencia, he ayudado a cientos de estudiantes a descubrir su potencial, mejorar su salud física y encontrar equilibrio en sus vidas. Cada sesión es una oportunidad para crecer y conectar con uno mismo.
+                    </p>
+                    <div class="certifications">
+                        <h4>Certificaciones</h4>
+                        <div class="cert-grid">
+                            <div class="cert-item">
+                                <i class="fas fa-certificate"></i>
+                                <span>Instructor Certificado de Pilates</span>
+                            </div>
+                            <div class="cert-item">
+                                <i class="fas fa-certificate"></i>
+                                <span>Yoga Alliance RYT-500</span>
+                            </div>
+                            <div class="cert-item">
+                                <i class="fas fa-certificate"></i>
+                                <span>Músico Profesional</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item" data-aos="fade-up">
+                    <div class="stat-number" data-count="500">0</div>
+                    <div class="stat-label">Estudiantes Satisfechos</div>
+                </div>
+                <div class="stat-item" data-aos="fade-up" data-aos-delay="100">
+                    <div class="stat-number" data-count="10">0</div>
+                    <div class="stat-label">Años de Experiencia</div>
+                </div>
+                <div class="stat-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="stat-number" data-count="1000">0</div>
+                    <div class="stat-label">Clases Dictadas</div>
+                </div>
+                <div class="stat-item" data-aos="fade-up" data-aos-delay="300">
+                    <div class="stat-number" data-count="50">0</div>
+                    <div class="stat-label">Presentaciones en Vivo</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonios" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Lo Que Dicen Mis Estudiantes</h2>
+                <p class="section-subtitle">Historias reales de transformación y crecimiento</p>
+            </div>
+
+            <div class="testimonials-grid">
+                <div class="testimonial-card" data-aos="fade-up">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        "Las clases de Pilates con David transformaron completamente mi postura y eliminaron mis dolores de espalda. Su atención personalizada es excepcional."
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>María García</h4>
+                            <span>Estudiante de Pilates</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        "Aprendí guitarra desde cero con David. Su paciencia y método de enseñanza hacen que cada clase sea disfrutable y productiva. ¡Totalmente recomendado!"
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Carlos Rodríguez</h4>
+                            <span>Estudiante de Música</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        "Las sesiones de Yoga me ayudaron a encontrar equilibrio y paz mental. David tiene una energía maravillosa que transmite en cada práctica."
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Ana Martínez</h4>
+                            <span>Estudiante de Yoga</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content" data-aos="zoom-in">
+                <h2>¿Listo para Comenzar Tu Transformación?</h2>
+                <p>Reserva tu primera clase hoy y descubre el poder de la música y el movimiento consciente</p>
+                <div class="cta-buttons">
+                    <a href="#contacto" class="btn btn-primary">Reserva Tu Primera Clase</a>
+                    <a href="https://wa.me/1234567890" class="btn btn-whatsapp">
+                        <i class="fab fa-whatsapp"></i> Contactar por WhatsApp
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contacto" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Contáctame</h2>
+                <p class="section-subtitle">¿Tienes alguna pregunta? ¡Escríbeme!</p>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-info" data-aos="fade-right">
+                    <h3>Información de Contacto</h3>
+                    <p>Estoy aquí para responder cualquier pregunta sobre mis servicios y ayudarte a comenzar tu viaje.</p>
+
+                    <div class="contact-items">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Email</h4>
+                                <a href="mailto:contacto@david.com">contacto@david.com</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Teléfono</h4>
+                                <a href="tel:+1234567890">+1 234 567 890</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Ubicación</h4>
+                                <p>Ciudad, País</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <h4>Sígueme en Redes Sociales</h4>
+                        <div class="social-icons">
+                            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-spotify"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form" data-aos="fade-left">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Nombre Completo</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Teléfono (opcional)</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="service">Servicio de Interés</label>
+                            <select id="service" name="service" required>
+                                <option value="">Selecciona un servicio</option>
+                                <option value="musica">Música</option>
+                                <option value="pilates">Pilates</option>
+                                <option value="yoga">Yoga</option>
+                                <option value="multiple">Varios servicios</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Mensaje</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-block">
+                            Enviar Mensaje <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>David</h3>
+                    <p>Músico & Instructor de Bienestar</p>
+                    <p>Transformando vidas a través de la música y el movimiento holístico.</p>
+                </div>
+
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Servicios</h4>
+                        <ul>
+                            <li><a href="#servicios">Música</a></li>
+                            <li><a href="#servicios">Pilates</a></li>
+                            <li><a href="#servicios">Yoga</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-column">
+                        <h4>Enlaces</h4>
+                        <ul>
+                            <li><a href="#inicio">Inicio</a></li>
+                            <li><a href="#sobre-mi">Sobre Mí</a></li>
+                            <li><a href="#testimonios">Testimonios</a></li>
+                            <li><a href="#contacto">Contacto</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 David. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/1234567890" class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Contactar por WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+        <span class="whatsapp-tooltip">¡Contáctame!</span>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
